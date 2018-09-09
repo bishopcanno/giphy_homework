@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+
+    <title>EricB'sGiphyHW</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu" rel="stylesheet">
+    <style type="text/css">
+    .container{
+            font-family: 'Baloo Tammudu', cursive;
+              }
+    </style>
+<!-- head tag that contains the links for bootstrap and google fonts and the little css required -->
+</head>
+    
+<body>
+    <div class="container">
+        <div class="row" id="buttonRow">
+            <div class="col-sm-12">
+
+            </div>
+        </div>
+<!-- where the buttons display at, both the default and the ones dynamically created by the user -->
+        <div class="row">
+            <div class="col-sm-4">
+                <label for="Search">Search</label>
+                <input type="search" class="form-control" id="searchForm">
+                <button type="button" class="btn btn-info" id="searchButton">Search</button>
+            </div>
+        </div>
+<!-- where the search form resides and the user can create new buttons and search new for new gifs -->
+        <div class="row">
+            <div class="col-sm-12" id="GifDisplay">
+
+            </div>
+        </div>
+    </div>
+<!-- this is where the gifs will be displayed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./assets/giphy.js"></script> 
+<!-- the links to jquerry cdn library and relative path for the js file -->
+</body>
+</html>
